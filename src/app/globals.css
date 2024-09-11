@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+:root {
+  --background-color: rgb(255, 251, 247);
+  --font-family-primary: var(--font-hanken-grotesk), var(--font-satoshi),
+    var(--font-recoleta);
+  --font-family-secondary: var(--font-geist-sans), var(--font-geist-mono);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family-primary);
+}
+
+.typography {
+  font-family: var(--font-recoleta) !important;
+}
+
+.head-typography {
+  font-family: var(--font-satoshi) !important;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000bf;
+}
