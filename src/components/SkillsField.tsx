@@ -2,13 +2,18 @@ import React from "react";
 
 const SkillsValues = [
   "Back-End Development",
-  "UX Design",
-  "UI Design",
   "Product Design",
-  "Front-End Development",
+  "Jest Testing",
   "User Testing",
   "Usability Testing",
   "Leadership",
+  "Javascript",
+  "Typescript",
+  "Nest.js",
+  "Express.js",
+  "Next.js",
+  "DB Package",
+  "REST Api"
 ];
 
 export default function SkillsField() {

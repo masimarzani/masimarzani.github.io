@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 const socialsData = [
   { text: "LinkedIn", link: "#" },
-  { text: "Instagram", link: "#" },
-  { text: "Mail", link: "#" },
-  { text: "Github", link: "#" },
+  { text: "Instagram", link: "" },
+  { text: "Mail", link: "mailto:masimrzni@gmail.com" },
+  { text: "Github", link: "https://github.com/masimarzani" },
 ];
 export default function Footer() {
   return (
@@ -37,12 +37,12 @@ export default function Footer() {
           <div className="text-center md:text-left mb-10 xl:mb-0">
             <Link
               className="text-[#95b884] line-clamp-2 text-xs md:text-sm font-satoshi hover:shadow-[0_10px_22px_-7px_rgba(167,215,144,0.7),_0_23px_10px_-6px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out"
-              href="https://github.com/Mostafakahani"
+              href="https://github.com/masimarzani"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Nicey © 2024. Designed by Goran Babarogic and Deployment by
-              Mostafa Kahani
+              Nicey © 2024. Designed by Goran Babarogic and Development by
+              Me
             </Link>
           </div>
 
